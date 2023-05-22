@@ -6,20 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 1b</title>
-    <script>
-
-        var i = 0
-
-        while (i <= 100) {
-            document.write('<p>' + i + '</p>')
-            i += 2
-        }
-
-    </script>
 </head>
 
 <body>
+    <script>
 
+        for (let i = 2; i <= 100; i += 2) {
+            document.write('<p>' + i + '</p>');
+        }
+
+        document.write('<hr/>');
+
+        var i = 2;
+
+        while (i <= 100) {
+            document.write('<p>' + i + '</p>');
+            i += 2;
+        }
+
+        document.write('<hr/>');
+        var j = 2;
+        do {
+            document.write('<p>' + j + '</p>');
+            j += 2;
+        } while (j <= 100);
+
+
+
+    </script>
 </body>
 
 </html>
