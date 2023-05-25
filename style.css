@@ -3,7 +3,18 @@ table {
     border-collapse: collapse;
 }
 
+th{
+    font-size: 2em;
+    text-align: end;
+    padding-right: 20px;
+}
+
 td {
     border: solid 1px black;
-    padding: 2px 20px;
+   
+}
+button{
+    width: 100%;
+    font-size: 2em;
+    padding: 10px 20px;
 }
