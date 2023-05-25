@@ -2,14 +2,13 @@ function borrar() {
     document.getElementById('resultado').innerHTML = '0';
 }
 
-function number1() {
+function numero(number) {
     if (document.getElementById('resultado').innerHTML === "0") {
-        document.getElementById('resultado').innerHTML = "1";
+        document.getElementById('resultado').innerHTML = (number);
     } else {
-        document.getElementById('resultado').innerHTML += "1";
+        document.getElementById('resultado').innerHTML += (number);
     }
 }
-function number2() {
-    document.getElementById('resultado').innerHTML = "2";
-}
+
+
 
