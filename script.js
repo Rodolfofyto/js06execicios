@@ -10,5 +10,8 @@ function numero(number) {
     }
 }
 
-
-
+function punto() {
+    if (document.getElementById('resultado').innerHTML.indexOf(".") === -1) {
+        document.getElementById('resultado').innerHTML += (".");
+    }
+}
