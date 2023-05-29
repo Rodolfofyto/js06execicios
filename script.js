@@ -15,3 +15,16 @@ function punto() {
         document.getElementById('resultado').innerHTML += (".");
     }
 }
+
+function invertir() {
+    if (document.getElementById('resultado').innerHTML === "0"){
+        return;
+    }
+
+    if (document.getElementById('resultado').innerHTML.indexOf("-") === -1) {
+        document.getElementById('resultado').innerHTML = ("-") + document.getElementById('resultado').innerHTML;
+    }else{
+        document.getElementById('resultado').innerHTML = document.getElementById('resultado').innerHTML.slice(1);
+    }
+    
+}
