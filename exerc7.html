@@ -12,9 +12,10 @@
             var n = parseInt(inNumero.value);
             var result = 1;
 
-            for (let i = 1; i <= n; i++) {
-
-                result *= i;
+            if (result % 0) {
+                for (let i = 1; i <= n; i++) {
+                    result *= i + " ,";
+                }
             }
 
             alert('El resultado es... ' + result)

@@ -10,11 +10,11 @@
 
         function calcular() {
             var n = parseInt(inNumero.value);
-            var result = 1;
+            var result = " ";
 
-            for (let i = 1; i <= n; i++) {
+            for (let i = 1; i <= 10; i++) {
 
-                result *= i;
+                result += i * n + " ,";
             }
 
             alert('El resultado es... ' + result)
